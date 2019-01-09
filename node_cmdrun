@@ -1,0 +1,42 @@
+//cmd
+
+dir // check directory
+cd documents // move to directory that I want
+node hello.js // run my js on nodejs
+
+//hello.js
+console.log('Hello World'); // console.log is similar to printwd
+
+//module.js
+
+var o =require('os'); // Before using module, I must use require to call module.
+                      // os is built-in module on nodejs  <-> npm
+                    
+                    
+//uglifyjs
+
+    //pretty.js
+    function hello(name){
+                          console.log('Hello'+name);
+                          }
+    hello(woosung);
+
+// on <cmd>
+npm install uglify-js // install npm which is the module made by users.
+
+uglifyjs -- help // look into how to use
+uglifyjs pretty.js // Use uglifyjs, when I want to minimize the volume of my code
+uglifyjs pretty.js -o uglified.js // when I want to save "~" , -o "filename"
+
+
+//underscore 
+
+npm init // make my directory the place to be able to install packages
+npm install underscore // underscore "supplement" built-in module in the domain of "array" & install in my directory so I can use underscore.
+
+    //underscore.js
+    const _ = require(underscore); //There are return value on underscore.
+    var arr = [3,5,1,2,13];
+    
+    console.log(_.first(arr));
+    console.log(_.last(arr));
